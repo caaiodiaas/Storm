@@ -1,7 +1,7 @@
 import axios, { AxiosError } from "axios";
 
 const instance = axios.create({
-   baseURL:'localhost:8080',
+   baseURL:'https://stormapplication.herokuapp.com/',
    headers: {
     'Content=Type': 'application/json',
     Accept: 'application/json'
