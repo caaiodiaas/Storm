@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand_Book.woff);
+}
+
+.navegacaoCatalogo{
+    width: 100%;
+    height: 260px;
+    display: flex;
+    align-items: center;
+}
+
+.navegacaoCatalogo img{
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    left: 10px;
+}
+
+.navegacaoCatalogo .barra{
+    width: 100%;
+    height: 150px;
+    background-color: #041421;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.navegacaoCatalogo .barra ul{
+    list-style: none;
+    color: #fff;
+}
+
+.navegacaoCatalogo .barra ul li{
+    float: left;
+    margin: 0 15px 0 15px;
+    font-family: Quicksand;
+    font-size: 35px;
+    cursor: pointer;
+}
